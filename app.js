@@ -28,6 +28,7 @@ const scoreNumber = document.getElementById('scoreNumber');
 const totalScore = document.getElementById('totalScore');
 const wrongAnswersList = document.getElementById('wrongAnswersList');
 const newTestBtn = document.getElementById('newTestBtn');
+const backToHomeBtn = document.getElementById('backToHomeBtn');
 const reviewMissedBtn = document.getElementById('reviewMissedBtn');
 const maxQuestions = document.getElementById('maxQuestions');
 
@@ -93,6 +94,10 @@ function setupEventListeners() {
     nextBtn.addEventListener('click', goToNextQuestion);
     submitTestBtn.addEventListener('click', submitTest);
     newTestBtn.addEventListener('click', () => showScreen('home'));
+    backToHomeBtn.addEventListener('click', () => {
+        stopTimer();
+        showScreen('home');
+    });
     reviewMissedBtn.addEventListener('click', reviewMissedQuestions);
 }
 
