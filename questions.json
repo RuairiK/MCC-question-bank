@@ -1,168 +1,1510 @@
 [
   {
     "questionId": 1,
-    "question": "How many crew are there in a 737-800?",
+    "question": "VMO is based on",
     "answers": {
-      "a": "1",
-      "b": "2",
-      "c": "3",
-      "d": "4"
+      "a": "Indicated airspeed",
+      "b": "Calibrated airspeed",
+      "c": "True airspeed",
+      "d": "Groundspeed"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "a"
   },
   {
     "questionId": 2,
-    "question": "What is the maximum altitude for a Boeing 737-800?",
+    "question": "The service ceiling of the B737-800 is;",
     "answers": {
-      "a": "35,000 feet",
-      "b": "39,000 feet",
-      "c": "41,000 feet",
-      "d": "43,000 feet"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 3,
-    "question": "What is the typical cruise speed (Mach) of a 737-800?",
-    "answers": {
-      "a": "Mach 0.74",
-      "b": "Mach 0.78",
-      "c": "Mach 0.82",
-      "d": "Mach 0.86"
+      "a": "37,000ft",
+      "b": "41,000ft",
+      "c": "40,000ft"
     },
     "correctAnswer": "b"
   },
   {
-    "questionId": 4,
-    "question": "What is the maximum takeoff weight (MTOW) of a 737-800?",
+    "questionId": 3,
+    "question": "The Boeing 737-800 has a VMO of;",
     "answers": {
-      "a": "155,000 lbs",
-      "b": "174,200 lbs",
-      "c": "189,000 lbs",
-      "d": "205,000 lbs"
+      "a": "340 Kts",
+      "b": "350 Kts",
+      "c": "280 Kts",
+      "d": "300 Kts"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 4,
+    "question": "VMO is relevant at;",
+    "answers": {
+      "a": "Higher levels",
+      "b": "Lower Levels"
     },
     "correctAnswer": "b"
   },
   {
     "questionId": 5,
-    "question": "How many engines does a 737-800 have?",
+    "question": "MMO is;",
     "answers": {
-      "a": "1",
-      "b": "2",
-      "c": "3",
-      "d": "4"
+      "a": "Referenced to MCRIT with a built-in percentage margin",
+      "b": "Referenced to MCRIT with no percentage margin",
+      "c": "Referenced to Mach Tuck"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 6,
+    "question": "The maximum take-off weight of the B737-800 is;",
+    "answers": {
+      "a": "77,900kgs",
+      "b": "79,700kgs",
+      "c": "78,999kgs",
+      "d": "None of the above"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "questionId": 7,
+    "question": "The Boeing 737-800 has an MMO of;",
+    "answers": {
+      "a": "0.82",
+      "b": "0.85",
+      "c": "0.89",
+      "d": "0.90"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 8,
+    "question": "Engine TAI must be on when;",
+    "answers": {
+      "a": "When icing conditions exist or are anticipated",
+      "b": "Only when the SAT is below -40\u00b0C",
+      "c": "Only in climb and cruise when temperature is below -40\u00b0C SAT"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 9,
+    "question": "The minimum height for autopilot engagement during take-off or climb is;",
+    "answers": {
+      "a": "200ft AGL",
+      "b": "400ft AGL",
+      "c": "300ft AGL",
+      "d": "Once the landing gear is retracted"
     },
     "correctAnswer": "b"
   },
   {
-    "questionId": 6,
-    "question": "What is the typical range of a 737-800?",
-    "answers": {
-      "a": "2,000 nautical miles",
-      "b": "3,000 nautical miles",
-      "c": "3,500 nautical miles",
-      "d": "4,500 nautical miles"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 7,
-    "question": "What type of engines does a 737-800 typically use?",
-    "answers": {
-      "a": "Turboprop",
-      "b": "Turbojet",
-      "c": "High-bypass turbofan",
-      "d": "Ramjet"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 8,
-    "question": "What is the wingspan of a 737-800?",
-    "answers": {
-      "a": "95 feet",
-      "b": "112 feet",
-      "c": "117 feet",
-      "d": "130 feet"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 9,
-    "question": "What is the typical passenger capacity of a 737-800?",
-    "answers": {
-      "a": "120-140 passengers",
-      "b": "150-180 passengers",
-      "c": "190-220 passengers",
-      "d": "230-260 passengers"
-    },
-    "correctAnswer": "c"
-  },
-  {
     "questionId": 10,
-    "question": "What is the service ceiling of a 737-800?",
+    "question": "The maximum tailwind component of the B737-800 is;",
     "answers": {
-      "a": "37,000 feet",
-      "b": "39,000 feet",
-      "c": "41,000 feet",
-      "d": "43,000 feet"
+      "a": "15kts on a dry runway",
+      "b": "10kts on a wet runway",
+      "c": "15kts"
     },
     "correctAnswer": "c"
   },
   {
     "questionId": 11,
-    "question": "What is the typical fuel capacity of a 737-800?",
+    "question": "Take-off thrust is limited to;",
     "answers": {
-      "a": "5,000 gallons",
-      "b": "6,875 gallons",
-      "c": "8,500 gallons",
-      "d": "10,000 gallons"
+      "a": "10 minutes",
+      "b": "5 minutes",
+      "c": "Acceleration altitude"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "unknown"
   },
   {
     "questionId": 12,
-    "question": "What is the landing distance required for a 737-800 at maximum landing weight?",
+    "question": "Which of these statements is correct;",
     "answers": {
-      "a": "4,000 feet",
-      "b": "5,000 feet",
-      "c": "6,000 feet",
-      "d": "7,000 feet"
+      "a": "Engine ignition must be on for take-off",
+      "b": "Engine ignition must be on for landing",
+      "c": "Engine ignition must be on during heavy precipitation",
+      "d": "Engine ignition must be on for anti-ice operation",
+      "e": "All of the above"
+    },
+    "correctAnswer": "e"
+  },
+  {
+    "questionId": 13,
+    "question": "Which of these statements is correct;",
+    "answers": {
+      "a": "Holding in icing conditions with flaps extended beyond flap 5 is prohibited",
+      "b": "Holding in icing conditions with flaps extended with flap 5 or less is prohibited.",
+      "c": "Holding in icing conditions with flaps extended is prohibited"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 14,
+    "question": "Fuel imbalance for take-off or landing must not exceed the following;",
+    "answers": {
+      "a": "450kgs",
+      "b": "453kgs",
+      "c": "540kgs"
     },
     "correctAnswer": "b"
   },
   {
-    "questionId": 13,
-    "question": "What is the takeoff distance required for a 737-800 at maximum takeoff weight?",
-    "answers": {
-      "a": "6,000 feet",
-      "b": "7,500 feet",
-      "c": "9,000 feet",
-      "d": "10,500 feet"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 14,
-    "question": "What is the typical approach speed (Vref) for a 737-800?",
-    "answers": {
-      "a": "120-130 knots",
-      "b": "130-140 knots",
-      "c": "140-150 knots",
-      "d": "150-160 knots"
-    },
-    "correctAnswer": "c"
-  },
-  {
     "questionId": 15,
-    "question": "What navigation system does a 737-800 primarily use?",
+    "question": "On a NPA the autopilot must be disconnected;",
     "answers": {
-      "a": "VOR/DME only",
-      "b": "GPS and INS",
-      "c": "FMS with GPS",
-      "d": "NDB only"
+      "a": "Before the aircraft descends below the MDA",
+      "b": "Before the aircraft descends below the DA",
+      "c": "Before the aircraft descends more than 50ft below the DA/MDA"
     },
     "correctAnswer": "c"
+  },
+  {
+    "questionId": 16,
+    "question": "Indicate if you agree or disagree with the following statement - \u201cAllowable lateral imbalance between main fuel tanks 1 and 2 must be scheduled to be zero\u201d;",
+    "answers": {
+      "a": "Agree",
+      "b": "Disagree"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 17,
+    "question": "Indicate if you agree or disagree with the following statement, \u201cFuel Imbalance (IMBAL) Alert is displayed in AMBER if Main Tanks Differ by more the 453 Kgs\u201d",
+    "answers": {
+      "a": "Agree",
+      "b": "Disagree"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 18,
+    "question": "What is the maximum altitude for using the APU electrical load;",
+    "answers": {
+      "a": "17,000ft",
+      "b": "10,000ft",
+      "c": "41,000ft"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 19,
+    "question": "What is the maximum altitude for using the APU bleed air;",
+    "answers": {
+      "a": "17,000ft",
+      "b": "10,000ft",
+      "c": "41,000ft"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 20,
+    "question": "The cabin altitude, rate of climb and differential pressure are indicated by;",
+    "answers": {
+      "a": "gauges on the overhead panel",
+      "b": "gauges on the centre pedestal",
+      "c": "Digital readout on the FMC"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 21,
+    "question": "The CABIN Rate of CLIMB Indicator displays the Cabin rate of climb or descent in",
+    "answers": {
+      "a": "Feet per minute",
+      "b": "Feet per second",
+      "c": "Metres per minute",
+      "d": "Metres per second"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 22,
+    "question": "The temperature of the conditioned air can be regulated by the _______, providing a comfortable temperature to both the cockpit and cabin.",
+    "answers": {
+      "a": "FMC",
+      "b": "Automatically",
+      "c": "Crew"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 23,
+    "question": "There are 3 Temperature zones. They are;",
+    "answers": {
+      "a": "Flight Deck, FWD Cabin, AFT Cabin",
+      "b": "FWD Cabin, Mid Cabin, AFT Cabin",
+      "c": "FWD Cabin, AFT Cabin, AFT hold"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 24,
+    "question": "If air in a zone supply duct overheats;",
+    "answers": {
+      "a": "The associated ZONE AURAL ALERT is activated",
+      "b": "The associated ZONE TEMP light illuminates",
+      "c": "There is no indication provided to the pilots"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 25,
+    "question": "Conditioned air is collected in the;",
+    "answers": {
+      "a": "Mix manifold",
+      "b": "The engine bleed system",
+      "c": "The pre cooler"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 26,
+    "question": "A single pack in high flow;",
+    "answers": {
+      "a": "capable of maintaining pressurisation and acceptable temperatures throughout the aircraft up to the maximum certified ceiling.",
+      "b": "incapable of maintaining pressurisation and acceptable temperatures throughout the aircraft up to the maximum certified ceiling.",
+      "c": "Single Pack operation is prohibited"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 27,
+    "question": "Pressurisation is achieved by extracting bleed air from the ______to provide a constant-rate flow of air to the cabin",
+    "answers": {
+      "a": "PACKS",
+      "b": "Engines",
+      "c": "Air Cycle Machine"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 28,
+    "question": "________Valves regulate the cabin pressure by automatically opening and closing.",
+    "answers": {
+      "a": "Outflow",
+      "b": "Inlet",
+      "c": "Regulation"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 29,
+    "question": "In order for the system to operate correctly, the flight crew must first input two pieces of information to the pressurisation system:",
+    "answers": {
+      "a": "Expected OAT/Cruising Altitude",
+      "b": "Cruise Altitude/Landing Airfield Elevation",
+      "c": "ISA Deviation/Takeoff Airfield Elevation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 30,
+    "question": "The B737-800 pressurisation system has the following modes;",
+    "answers": {
+      "a": "Auto, Standby, Manual AC",
+      "b": "Auto, ALTN, Standby, Manual AC",
+      "c": "Auto, ALTN, Manual"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 31,
+    "question": "What is the maximum differential pressure of the B737-800 pressurisation system;",
+    "answers": {
+      "a": "8.9 psi",
+      "b": "9.9 psi",
+      "c": "9.5 psi",
+      "d": "9.1 psi"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "questionId": 32,
+    "question": "The altitude warning horn sounds when the cabin altitude reaches;",
+    "answers": {
+      "a": "15,000ft",
+      "b": "10,000ft",
+      "c": "12,000ft APU"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 33,
+    "question": "With the APU (MAINT) light illuminated the APU may be operated;",
+    "answers": {
+      "a": "Agree",
+      "b": "Disagree"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 34,
+    "question": "It is not necessary to monitor the APU EGT during start;",
+    "answers": {
+      "a": "Agree",
+      "b": "Disagree"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 35,
+    "question": "The APU start switch is situated on the;",
+    "answers": {
+      "a": "AFT overhead panel",
+      "b": "FWD overhead panel beside the taxi light switch",
+      "c": "FWD overhead panel between the ENG GEN switches"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 36,
+    "question": "The APU starts and operates up to;",
+    "answers": {
+      "a": "25000 ft",
+      "b": "30000ft",
+      "c": "36000ft",
+      "d": "Up to the aircraft maximum certified altitude"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "questionId": 37,
+    "question": "The APU supplies bleed air for",
+    "answers": {
+      "a": "both air conditioning packs on the ground",
+      "b": "one pack in flight",
+      "c": "Both a and b are correct"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 38,
+    "question": "The APU generator can supply power to both AC transfer buses on the ground or in- flight",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 39,
+    "question": "The APU start Cycle can take;",
+    "answers": {
+      "a": "60 Seconds",
+      "b": "90 Seconds",
+      "c": "120 seconds",
+      "d": "3 minutes"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 40,
+    "question": "In the event of an EGT exceedance the APU automatically shuts down;",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 41,
+    "question": "Before using it as a BLEED source, the APU should be operated for at least;",
+    "answers": {
+      "a": "4 Minutes",
+      "b": "3 Minutes",
+      "c": "2 Minutes",
+      "d": "1 Minute Electrics"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 42,
+    "question": "The Standby Power System provides 115V AC and 24V DC power to essential systems in the event of loss of all engine or APU driven AC power.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 43,
+    "question": "Each engine has an associated generator that is located on the accessory gearbox.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 44,
+    "question": "When the GRD POWER AVAILABLE light is illuminated (blue);",
+    "answers": {
+      "a": "The ground power is connected and available",
+      "b": "The ground power is connected and powering the aircraft systems",
+      "c": "The ground power is connected and meets aircraft power standards"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 45,
+    "question": "A GEN OFF BUS light illuminated (blue) means;",
+    "answers": {
+      "a": "In flight the engines are not powering the generator",
+      "b": "On the ground the APU is not powering the generator",
+      "c": "The IDG is not supplying power to the related transfer bus"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 46,
+    "question": "A SOURCE OFF light illuminated (amber) means;",
+    "answers": {
+      "a": "No source has been manually selected to power the related transfer bus",
+      "b": "The manually selected source has been disconnected",
+      "c": "Both A and B"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 47,
+    "question": "Fire detection and/or protection on board the jet transport aircraft is provided to:",
+    "answers": {
+      "a": "Engines/APU",
+      "b": "Cargo Bays",
+      "c": "Wheel Wells/Lavatories",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "questionId": 48,
+    "question": "The engines and APU have a fire detection system that uses;",
+    "answers": {
+      "a": "3 Loops",
+      "b": "2 Loops",
+      "c": "1 Loop",
+      "d": "Fire Loops are not used on the 737-800"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 49,
+    "question": "When a Fire Loop detects heat",
+    "answers": {
+      "a": "Resistance Increases",
+      "b": "Resistance Decreases",
+      "c": "Resistance does not change"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 50,
+    "question": "Pulling the fire handle upwards;",
+    "answers": {
+      "a": "discharges the fire bottles",
+      "b": "Arms the fire bottles",
+      "c": "Disarms the fire bottles"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 51,
+    "question": "The Engines share;",
+    "answers": {
+      "a": "one bottle",
+      "b": "two bottles",
+      "c": "three bottles",
+      "d": "four bottles"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 52,
+    "question": "The APU has its own fire bottle",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 53,
+    "question": "The cargo bays have particle smoke detectors that will send a signal to the flight deck to warn the pilots of a potential fire situation. The pilot can then discharge a;",
+    "answers": {
+      "a": "Powder fire extinguisher",
+      "b": "Halon fire extinguisher",
+      "c": "Water fire extinguisher",
+      "d": "Foam fire extinguisher"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 54,
+    "question": "There is no fire extinguisher in the wheel well;",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 55,
+    "question": "The Fire Protection Panel Switches are situated;",
+    "answers": {
+      "a": "On the glare shield in front of each pilot",
+      "b": "On the AFT ELECTRONIC PANEL",
+      "c": "On the FWD PANEL between the two CDUs"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 56,
+    "question": "The Fire Warning CUTOUT Switch is situated",
+    "answers": {
+      "a": "On the Fire Protection Panel",
+      "b": "On the MASTER CAUTION PANEL in front of the Captain",
+      "c": "On the Cargo FIRE PANEL on the AFT ELECTRONIC PANEL"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 57,
+    "question": "Which of the following statements is correct;",
+    "answers": {
+      "a": "The wheel well has a fire detection and protection system.",
+      "b": "The wheel well has a fire detection system only",
+      "c": "The wheel well has a fire detection and protection system with one fire bottle"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 58,
+    "question": "At approximately how many degrees of control wheel deflection will roll spoilers on the down-going wing will start to deflect.",
+    "answers": {
+      "a": "30 degrees",
+      "b": "20 degrees",
+      "c": "10 degrees",
+      "d": "5 degrees"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 59,
+    "question": "An artificial feel unit is provided to give the pilot feedback when making control inputs in order to reduce the possibility of overstressing the airframe at higher speeds; equally, it enables the aircraft to be manoeuvred more easily at lower speeds.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 60,
+    "question": "The autopilot on the B737NG will not engage unless both of the following conditions are met; - No force is being applied to the control wheel and the STAB TRIM AUTOPILOT cutout switch is at NORMAL",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 61,
+    "question": "Unlike a light piston aircraft, we do not use the rudder to balance turns.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 62,
+    "question": "On extension;",
+    "answers": {
+      "a": "The slats extend before the flaps",
+      "b": "The flaps extend before the slats",
+      "c": "The flaps and slats extend at the same time"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 63,
+    "question": "Slots are designed into leading and trailing edge devices in order to;",
+    "answers": {
+      "a": "Reduce drag",
+      "b": "Reduce aerodynamic load",
+      "c": "re-energise the boundary layer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 64,
+    "question": "The maximum altitude for Flap extension is;",
+    "answers": {
+      "a": "39000 feet",
+      "b": "30000 feet",
+      "c": "25000 feet",
+      "d": "20000 feet"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 65,
+    "question": "The STAB OUT OF TRIM light illuminated (Amber) means;",
+    "answers": {
+      "a": "The stabiliser is not trimmed properly by the electric trim",
+      "b": "The Autopilot is engaged and not trimming the stabiliser properly"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 66,
+    "question": "On the ground the rudder pedals permit nose wheel steering up to 7 degrees each side of centre;",
+    "answers": {
+      "a": "Agree",
+      "b": "Disagree"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 67,
+    "question": "The trailing edge flaps are normally operated by;",
+    "answers": {
+      "a": "Hydraulic pressure",
+      "b": "AC electric power",
+      "c": "DC electric power"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 68,
+    "question": "What is EFIS?",
+    "answers": {
+      "a": "Electric Flight Information system",
+      "b": "Electronic Flight Instrument system",
+      "c": "Electronic Flight Indication System"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 69,
+    "question": "What is EICAS?",
+    "answers": {
+      "a": "Electrical Information and Crew Awareness System",
+      "b": "Engine Indication and Crew Alerting System",
+      "c": "Electric Information and Crew Alerting System"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 70,
+    "question": "The range on the Navigation Display can be adjusted;",
+    "answers": {
+      "a": "From the FMC",
+      "b": "From the MCP",
+      "c": "From the EFIS Control Panel",
+      "d": "Automatically"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 71,
+    "question": "The upper EICAS screen displays primary engine information and annunciations. N1, EGT, fuel flow and fuel quantity information is available on this display.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 72,
+    "question": "The Flight Mode Annunciator is located;",
+    "answers": {
+      "a": "At the bottom of the Primary Flight Display (PFD)",
+      "b": "At the top of the Navigation Display (ND)",
+      "c": "At the top of the Primary Flight Display (PFD)"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 73,
+    "question": "Fuel quantity is displayed on;",
+    "answers": {
+      "a": "Upper Display Unit (DU)",
+      "b": "Lower Display Unit (DU)",
+      "c": "Three Fuel gauges located on the centre panel"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 74,
+    "question": "The TAT is displayed on the;",
+    "answers": {
+      "a": "Upper Display Unit on top of the left ENG N1 gauge",
+      "b": "Upper Display Unit under the left ENG EGT gauge",
+      "c": "Lower Display Unit on top of left ENG N2 gauge"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 75,
+    "question": "The Boeing 737-800 holds almost;",
+    "answers": {
+      "a": "25 tonnes of fuel",
+      "b": "21 tonnes of fuel.",
+      "c": "18 tonnes of fuel",
+      "d": "15 tonnes of fuel"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 76,
+    "question": "Fuel is delivered to the engines through:",
+    "answers": {
+      "a": "engine-driven pumps located on each engine, along with 2 electric pumps located in each fuel tank.",
+      "b": "Engine driven pumps only",
+      "c": "Electrically operated pumps only",
+      "d": "Is fed by gravity only"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 77,
+    "question": "The centre tanks has;",
+    "answers": {
+      "a": "Slightly more powerful AC pumps",
+      "b": "Slightly less powerful AC pumps",
+      "c": "Pumps that are identical to the wing tank AC pumps"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 78,
+    "question": "The fuel in the wings begins to be used;",
+    "answers": {
+      "a": "Once the centre tank is half full",
+      "b": "Once the centre tank fuel has been exhausted.",
+      "c": "Once the centre tank is full"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 79,
+    "question": "Centre tank fuel is used first to reduce the amount of wing flex, thereby reducing structural stresses on the airframe.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 80,
+    "question": "The fuel freezing point of Jet-A1 is approximately",
+    "answers": {
+      "a": "-57\u00b0C",
+      "b": "-67\u00b0C",
+      "c": "-37\u00b0C",
+      "d": "-47\u00b0C"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "questionId": 81,
+    "question": "Fuel heating is achieved by;",
+    "answers": {
+      "a": "A hot duct from the bleed system",
+      "b": "a heat exchanger that uses warm oil from the engine oil system to heat the fuel as it passes through.",
+      "c": "An electric fuel heater",
+      "d": "Fuel is not heated"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 82,
+    "question": "If a fuel filter becomes blocked a bypass system allows fuel to be routed around the filter",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 83,
+    "question": "The B737-800 has the following fuel tanks;",
+    "answers": {
+      "a": "Two wing tanks with a cross feed system",
+      "b": "Two wing tanks and one centre tank with a cross feed system",
+      "c": "Two wing tanks and two centre tanks"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "questionId": 84,
+    "question": "The fuel panel is located on;",
+    "answers": {
+      "a": "The bottom left side of the Forward Overhead Panel",
+      "b": "The bottom right side of the Forward Overhead Panel",
+      "c": "The top left side of the Forward overhead Panel."
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 85,
+    "question": "The fuel Temperature (TEMP) indicator indicates the fuel temperature in;",
+    "answers": {
+      "a": "Number 1 fuel tank",
+      "b": "Number 2 fuel tank",
+      "c": "Centre fuel tank"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 86,
+    "question": "The hydraulic system is pressurised to approximately;",
+    "answers": {
+      "a": "1000 psi",
+      "b": "2000 psi",
+      "c": "3000 psi",
+      "d": "4000 psi"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 87,
+    "question": "The basis of the 737s Hydraulic system is;",
+    "answers": {
+      "a": "3 Main systems and a standby system",
+      "b": "1 Main system and a standby system",
+      "c": "1 Main system and 2 standby systems",
+      "d": "2 main systems and a standby system"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 88,
+    "question": "The standby system can be activated manually or automatically",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 89,
+    "question": "The B737-800 has the following hydraulic systems;",
+    "answers": {
+      "a": "System A, System B, STBY System",
+      "b": "System A, System B, ALTN System",
+      "c": "System A, System B, ALTN System, STBY System"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 90,
+    "question": "System A and B hydraulics are powered by;",
+    "answers": {
+      "a": "Two engine driven pumps",
+      "b": "One engine driven pump and one electric driven pump",
+      "c": "Two electric driven pumps"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 91,
+    "question": "In the event of system A and/or B failure the standby system can provide power to;",
+    "answers": {
+      "a": "Thrust reversers and rudder",
+      "b": "Leading Edge Flaps and Slats",
+      "c": "Standby Yaw Damper",
+      "d": "All of the above Ice and Rain"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 92,
+    "question": "The engine ice protection on the B737-800 is used as;",
+    "answers": {
+      "a": "An anti -ice system",
+      "b": "A de-icing system",
+      "c": "Both A and B"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 93,
+    "question": "Ice protection is provided by;",
+    "answers": {
+      "a": "Bleed air from the engines",
+      "b": "AC Electric power",
+      "c": "DC electric power"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 94,
+    "question": "The following ice protection systems are found on jet transport aircraft:",
+    "answers": {
+      "a": "Wing leading edge anti-icing",
+      "b": "Flight deck window heat",
+      "c": "Probe heat",
+      "d": "Engine anti-ice",
+      "e": "All of the above"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 95,
+    "question": "The leading-edge slats are heated as well as the engine nacelles.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 96,
+    "question": "The engine anti-ice system should be switched on whenever the TAT is below what temperature in visible moisture (cloud or precipitation), or when the meteorological visibility falls below 1500m (rain, mist or fog)?",
+    "answers": {
+      "a": "+10\u00b0C",
+      "b": "+5\u00b0C",
+      "c": "0\u00b0C",
+      "d": "-10\u00b0C"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 97,
+    "question": "Each window incorporated an electrical filament for heating",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 98,
+    "question": "To prevent ice build-up the aircraft probes are;",
+    "answers": {
+      "a": "Chemically heated",
+      "b": "Mechanically heated",
+      "c": "Electrically heated"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 99,
+    "question": "Wing anti-ice is used as;",
+    "answers": {
+      "a": "De-icing system",
+      "b": "Anti- ice system",
+      "c": "Both A and B"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 100,
+    "question": "Ice build-up on the front screens and around the window wipers is used by the pilot as an indication of when to switch on wing anti-ice.",
+    "answers": {
+      "a": "True",
+      "b": "False Landing Gear"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 101,
+    "question": "After the landing gear lever is selected up it can be placed in the OFF position. This depressurises the hydraulic actuators;",
+    "answers": {
+      "a": "Agree",
+      "b": "Disagree"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 102,
+    "question": "The landing gear lever has;",
+    "answers": {
+      "a": "2 Positions \u2013 Up and Down",
+      "b": "3 Positions Up, Down and Off",
+      "c": "4 Positions, Up, Down, Off, Centre"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 103,
+    "question": "In the event the landing gear lever cannot be selected UP after take-off, as a result of the solenoid not being released, the red trigger can be pulled to override the solenoid to allow the landing gear lever to be selected UP",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 104,
+    "question": "The landing gear extension/retraction system components can be simply summarised as:",
+    "answers": {
+      "a": "Up-locks",
+      "b": "Hydraulic actuators",
+      "c": "Down-locks",
+      "d": "All of the above"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 105,
+    "question": "The Maximum speed for the extension of the landing gear is;",
+    "answers": {
+      "a": "260 Kts/0.81",
+      "b": "270 Kts/0.82",
+      "c": "250 Kts/0.78",
+      "d": "220 Kts/0.75"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 106,
+    "question": "The Maximum speed for retraction of the landing gear is;",
+    "answers": {
+      "a": "220 Kts",
+      "b": "235 Kts",
+      "c": "240 Kts",
+      "d": "250 Kts"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "questionId": 107,
+    "question": "The Maximum speed for flight with the landing gear extended is;",
+    "answers": {
+      "a": "320 Kts/0.82",
+      "b": "340 Kts/0.82",
+      "c": "350 Kts/0.82",
+      "d": "280 Kts/0.76"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 108,
+    "question": "The Brakes can be actuated by;",
+    "answers": {
+      "a": "The Parking Brake",
+      "b": "Toe Brakes on the rudder pedals",
+      "c": "The Auto Brake system",
+      "d": "All of the above"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 109,
+    "question": "The pilot can override the auto-brake system at any time by;",
+    "answers": {
+      "a": "Applying manual brakes",
+      "b": "Pressing the override button on the control column",
+      "c": "By Stowing the thrust reversers"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 110,
+    "question": "Brake fade can occur when the brakes are;",
+    "answers": {
+      "a": "Cold",
+      "b": "Hot",
+      "c": "Brakes are not affected by temperature"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 111,
+    "question": "The Auto-brake system can be selected for take-off and landing and provides a variable braking pressure to give a certain rate of deceleration;",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 112,
+    "question": "The auto brake system works in conjunction with the IRS;",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 113,
+    "question": "With RTO selected (Rejected Take-Off), braking will be applied;",
+    "answers": {
+      "a": "Automatically when the thrust levers are retarded to idle in an RTO situation",
+      "b": "Automatically on reverse thrust selection",
+      "c": "Automatically following detection of a significant malfunction",
+      "d": "Manually by the Captain Navigation System"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 114,
+    "question": "The navigation system includes the following;",
+    "answers": {
+      "a": "GPS 1, IRS 1, 1 FMC",
+      "b": "GPS 1 & 2, IRS 1 & 2, FMC",
+      "c": "GPS 1 & 2, IRS 1 & 2, FMC 1 & 2"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 115,
+    "question": "The IRS mode selector panel is located on;",
+    "answers": {
+      "a": "Forward Overhead Panel",
+      "b": "AFT Overhead Panel",
+      "c": "Centre panel between both CDUs",
+      "d": "Power Plant"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 116,
+    "question": "To Navigate, modern jet aircraft use;",
+    "answers": {
+      "a": "IRS",
+      "b": "GPS",
+      "c": "Radio Navigation",
+      "d": "FMC",
+      "e": "All of the above"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "questionId": 117,
+    "question": "The positions calculated from IRS,GPS, NAV AIDS etc. are sent to the FMC, which compares their position and selects what it determines is the most accurate.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 118,
+    "question": "In their normal navigation mode, the IRSs provide the following information;",
+    "answers": {
+      "a": "Attitude",
+      "b": "True and magnetic heading",
+      "c": "Acceleration",
+      "d": "Present Position",
+      "e": "All of the above"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 119,
+    "question": "Once aligned, and with NAV selected, the IRSs are able to compute the aircraft's position using ____________ to sense aircraft movement and direction.",
+    "answers": {
+      "a": "Accelerometers",
+      "b": "Lasers",
+      "c": "Microchips Powerplant Controls"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 120,
+    "question": "When starting an Engine on the ground the first action is to;",
+    "answers": {
+      "a": "Select the Start Switch to CONT",
+      "b": "Select the Start Switch to GRD",
+      "c": "Select the ENG Start Lever to Idle"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 121,
+    "question": "The Ignition Switch is located on the Forward Overhead Panel between the Start Switches;",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 122,
+    "question": "Thrust levers send a thrust setting request to the EEC that in turn sets a thrust setting;",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 123,
+    "question": "When inflight, the ignition is usually selected;",
+    "answers": {
+      "a": "ON",
+      "b": "CONT",
+      "c": "OFF",
+      "d": "STANDBY"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 124,
+    "question": "For take-off and landing, ignition is selected to ______ to provide a continuous source of ignition in the event of a flameout.",
+    "answers": {
+      "a": "ON",
+      "b": "CONT",
+      "c": "OFF",
+      "d": "STANDBY"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "questionId": 125,
+    "question": "The larger the fan diameter,",
+    "answers": {
+      "a": "The Longer the Spool up time",
+      "b": "The Shorter the Spool up time",
+      "c": "Spool up time is the same regardless of fan diameter"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 126,
+    "question": "In the normal mode, the Electronic Engine Control (EEC) calculates N1 thrust ratings using:",
+    "answers": {
+      "a": "Sensed flight conditions and bleed air demand",
+      "b": "Air pressure and EGT values",
+      "c": "Altitude, temperature and N2 values"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 127,
+    "question": "In the normal mode, the Electronic Engine Control (EEC) compares commanded N1 to actual N1 and adjusts fuel flow to achieve the commanded N1",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 128,
+    "question": "If the Master Caution light illuminates, an associated light will come on inside the recall panel indicating which system is affected;",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 129,
+    "question": "To check the integrity of the aircraft's system, we press the Recall panel at certain stages of flight. As long as the screen remains blank, no system fault exists.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 130,
+    "question": "The cabin altitude warning horn on a 737 will sound when the cabin altitude exceeds _______ft. It can be inhibited by pressing the ALT HORN CUTOUT button on the overhead panel.",
+    "answers": {
+      "a": "5000 feet",
+      "b": "10000 feet",
+      "c": "15000 feet",
+      "d": "20000 feet"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 131,
+    "question": "The Master Caution System is located;",
+    "answers": {
+      "a": "One display on the lower centre panel between the CDUs",
+      "b": "Two displays on the Glare Shield either side of the MCP"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 132,
+    "question": "TCAS stands for",
+    "answers": {
+      "a": "Traffic Collision Avoidance System",
+      "b": "Tactical Collision Avoidance System",
+      "c": "Traffic Conflict Alerting System"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 133,
+    "question": "TCAS instructions must",
+    "answers": {
+      "a": "always take precedence over ATC instructions",
+      "b": "never take precedence over ATC instructions"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 134,
+    "question": "Only aircraft equipped with mode C or mode S transponders can be seen by TCAS",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 135,
+    "question": "The Traffic Collision Avoidance System provides the pilot with;",
+    "answers": {
+      "a": "Aural instructions to avoid a collision",
+      "b": "Aural and visual instructions to avoid a collision"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 136,
+    "question": "All modern jet aeroplanes are fitted with GPWS (Ground Proximity Warning System). The system takes inputs from:",
+    "answers": {
+      "a": "Position/Altitude",
+      "b": "Airspeed/Vertical Speed",
+      "c": "Glide Slope",
+      "d": "All of the above"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 137,
+    "question": "The caution/warning generated is given to the pilot by an audio and as a visual alert on the PFD/ND.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 138,
+    "question": "The Enhanced Ground Proximity Warning System takes input from the Weather Radar, GPS and a Terrain Database to provide:",
+    "answers": {
+      "a": "Terrain look-ahead alerting",
+      "b": "Predictive windshear",
+      "c": "Both a and b are correct"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 139,
+    "question": "The Ground Proximity Warning System has six modes of operation. After take- off if the aircraft begins to sink for some reason which of the following aural warnings will be heard;",
+    "answers": {
+      "a": "\u201cTOO LOW TERRAIN\u2019\u2019",
+      "b": "\u201cPULL UP\u201d, \u201cPULL UP\u201d",
+      "c": "\u201cDON\u2019T SINK\u201d, \u201cDON\u2019T SINK\u201d",
+      "d": "\u201cSINK RATE\u201d, \u201cSINK RATE\u201d"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 140,
+    "question": "The Enhanced Ground Proximity Warning System provides the follow;",
+    "answers": {
+      "a": "Terrain alerting and Windshear",
+      "b": "Terrain look-ahead alerting and Windshear",
+      "c": "Terrain look-ahead alerting and Predictive Winds"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 141,
+    "question": "In the descent, the radio altimeter first becomes 'alive' at",
+    "answers": {
+      "a": "5,000ft",
+      "b": "2,500ft",
+      "c": "1,500ft",
+      "d": "1000ft"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 142,
+    "question": "The radar must be serviceable if the flight is to be operated in icing conditions or areas of significant weather.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 143,
+    "question": "On the Weather Radar Display, the colour MAGENTA represents;",
+    "answers": {
+      "a": "Icing",
+      "b": "Turbulence",
+      "c": "Very Heavy Rainfall",
+      "d": "Icing"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 144,
+    "question": "On the Weather Radar Display, the colour Red represents;",
+    "answers": {
+      "a": "Heavy Rainfall",
+      "b": "Icing",
+      "c": "Turbulence",
+      "d": "Very Heavy Rainfall"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 145,
+    "question": "On the Weather Radar Display, the colour Yellow represents;",
+    "answers": {
+      "a": "Very Heavy Rainfall",
+      "b": "Medium Rainfall",
+      "c": "Light turbulence",
+      "d": "Icing"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 146,
+    "question": "On the Weather Radar Display, the colour GREEN represents;",
+    "answers": {
+      "a": "Heavy Rainfall",
+      "b": "Medium Rainfall",
+      "c": "Light Rainfall",
+      "d": "Light icing"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 147,
+    "question": "Red and magenta returns are generally related to thunderstorm activity.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 148,
+    "question": "With correct use of the weather radar's ______ control, the system is able to give pilots a very good advance warning of any significant weather that lies ahead along the route of flight",
+    "answers": {
+      "a": "Brightness",
+      "b": "Tilt",
+      "c": "Gain"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "questionId": 149,
+    "question": "Radar shadows should be avoided at all times.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
+  },
+  {
+    "questionId": 150,
+    "question": "Radar returns from terrain can be given which, on occasions, can be confused with weather",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "unknown"
   }
 ]
-
