@@ -40,172 +40,19 @@ async function init() {
     setupEventListeners();
 }
 
-// Questions data (embedded directly to work without a web server)
+// Questions data (embedded as fallback - placeholder only)
+// Primary source is questions.json file
 const questionsData = [
   {
-    "questionId": 1,
-    "question": "How many crew are there in a 737-800?",
+    "questionId": 0,
+    "question": "[PLACEHOLDER] This is a sample question. Please ensure questions.json is available.",
     "answers": {
-      "a": "1",
-      "b": "2",
-      "c": "3",
-      "d": "4"
+      "a": "Placeholder option A",
+      "b": "Placeholder option B",
+      "c": "Placeholder option C",
+      "d": "Placeholder option D"
     },
-    "correctAnswer": "b"
-  },
-  {
-    "questionId": 2,
-    "question": "What is the maximum altitude for a Boeing 737-800?",
-    "answers": {
-      "a": "35,000 feet",
-      "b": "39,000 feet",
-      "c": "41,000 feet",
-      "d": "43,000 feet"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 3,
-    "question": "What is the typical cruise speed (Mach) of a 737-800?",
-    "answers": {
-      "a": "Mach 0.74",
-      "b": "Mach 0.78",
-      "c": "Mach 0.82",
-      "d": "Mach 0.86"
-    },
-    "correctAnswer": "b"
-  },
-  {
-    "questionId": 4,
-    "question": "What is the maximum takeoff weight (MTOW) of a 737-800?",
-    "answers": {
-      "a": "155,000 lbs",
-      "b": "174,200 lbs",
-      "c": "189,000 lbs",
-      "d": "205,000 lbs"
-    },
-    "correctAnswer": "b"
-  },
-  {
-    "questionId": 5,
-    "question": "How many engines does a 737-800 have?",
-    "answers": {
-      "a": "1",
-      "b": "2",
-      "c": "3",
-      "d": "4"
-    },
-    "correctAnswer": "b"
-  },
-  {
-    "questionId": 6,
-    "question": "What is the typical range of a 737-800?",
-    "answers": {
-      "a": "2,000 nautical miles",
-      "b": "3,000 nautical miles",
-      "c": "3,500 nautical miles",
-      "d": "4,500 nautical miles"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 7,
-    "question": "What type of engines does a 737-800 typically use?",
-    "answers": {
-      "a": "Turboprop",
-      "b": "Turbojet",
-      "c": "High-bypass turbofan",
-      "d": "Ramjet"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 8,
-    "question": "What is the wingspan of a 737-800?",
-    "answers": {
-      "a": "95 feet",
-      "b": "112 feet",
-      "c": "117 feet",
-      "d": "130 feet"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 9,
-    "question": "What is the typical passenger capacity of a 737-800?",
-    "answers": {
-      "a": "120-140 passengers",
-      "b": "150-180 passengers",
-      "c": "190-220 passengers",
-      "d": "230-260 passengers"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 10,
-    "question": "What is the service ceiling of a 737-800?",
-    "answers": {
-      "a": "37,000 feet",
-      "b": "39,000 feet",
-      "c": "41,000 feet",
-      "d": "43,000 feet"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 11,
-    "question": "What is the typical fuel capacity of a 737-800?",
-    "answers": {
-      "a": "5,000 gallons",
-      "b": "6,875 gallons",
-      "c": "8,500 gallons",
-      "d": "10,000 gallons"
-    },
-    "correctAnswer": "b"
-  },
-  {
-    "questionId": 12,
-    "question": "What is the landing distance required for a 737-800 at maximum landing weight?",
-    "answers": {
-      "a": "4,000 feet",
-      "b": "5,000 feet",
-      "c": "6,000 feet",
-      "d": "7,000 feet"
-    },
-    "correctAnswer": "b"
-  },
-  {
-    "questionId": 13,
-    "question": "What is the takeoff distance required for a 737-800 at maximum takeoff weight?",
-    "answers": {
-      "a": "6,000 feet",
-      "b": "7,500 feet",
-      "c": "9,000 feet",
-      "d": "10,500 feet"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 14,
-    "question": "What is the typical approach speed (Vref) for a 737-800?",
-    "answers": {
-      "a": "120-130 knots",
-      "b": "130-140 knots",
-      "c": "140-150 knots",
-      "d": "150-160 knots"
-    },
-    "correctAnswer": "c"
-  },
-  {
-    "questionId": 15,
-    "question": "What navigation system does a 737-800 primarily use?",
-    "answers": {
-      "a": "VOR/DME only",
-      "b": "GPS and INS",
-      "c": "FMS with GPS",
-      "d": "NDB only"
-    },
-    "correctAnswer": "c"
+    "correctAnswer": "a"
   }
 ];
 
@@ -225,6 +72,11 @@ async function loadQuestions() {
         console.log('Using embedded questions data (questions.json not available)');
         allQuestions = questionsData;
     }
+    
+    // Filter out questions with unknown answers (null or undefined)
+    allQuestions = allQuestions.filter(question => {
+        return question.correctAnswer !== null && question.correctAnswer !== undefined;
+    });
     
     questionCountInput.max = allQuestions.length;
     updateMaxQuestions();
