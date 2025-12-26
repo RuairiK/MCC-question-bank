@@ -181,7 +181,7 @@
       "b": "10,000ft",
       "c": "41,000ft"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "c"
   },
   {
     "questionId": 19,
@@ -222,7 +222,7 @@
       "b": "Automatically",
       "c": "Crew"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "c"
   },
   {
     "questionId": 23,
@@ -321,7 +321,7 @@
     "answers": {
       "a": "15,000ft",
       "b": "10,000ft",
-      "c": "12,000ft APU"
+      "c": "12,000ft"
     },
     "correctAnswer": "b"
   },
@@ -410,9 +410,9 @@
       "a": "4 Minutes",
       "b": "3 Minutes",
       "c": "2 Minutes",
-      "d": "1 Minute Electrics"
+      "d": "1 Minute"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "d"
   },
   {
     "questionId": 42,
@@ -460,7 +460,7 @@
       "b": "The manually selected source has been disconnected",
       "c": "Both A and B"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "c"
   },
   {
     "questionId": 47,
@@ -739,7 +739,7 @@
       "b": "Upper Display Unit under the left ENG EGT gauge",
       "c": "Lower Display Unit on top of left ENG N2 gauge"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "a"
   },
   {
     "questionId": 75,
@@ -851,7 +851,7 @@
       "b": "Number 2 fuel tank",
       "c": "Centre fuel tank"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "a"
   },
   {
     "questionId": 86,
@@ -954,7 +954,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": "true"
+    "correctAnswer": "a"
   },
   {
     "questionId": 96,
@@ -1133,7 +1133,7 @@
       "a": "Automatically when the thrust levers are retarded to idle in an RTO situation",
       "b": "Automatically on reverse thrust selection",
       "c": "Automatically following detection of a significant malfunction",
-      "d": "Manually by the Captain Navigation System"
+      "d": "Manually by the Captain"
     },
     "correctAnswer": "a"
   },
