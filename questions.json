@@ -111,7 +111,7 @@
       "b": "5 minutes",
       "c": "Acceleration altitude"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 12,
@@ -133,7 +133,7 @@
       "b": "Holding in icing conditions with flaps extended with flap 5 or less is prohibited.",
       "c": "Holding in icing conditions with flaps extended is prohibited"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "c"
   },
   {
     "questionId": 14,
@@ -162,7 +162,7 @@
       "a": "Agree",
       "b": "Disagree"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"ß
   },
   {
     "questionId": 17,
@@ -171,7 +171,7 @@
       "a": "Agree",
       "b": "Disagree"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 18,
@@ -430,7 +430,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 44,
@@ -492,7 +492,7 @@
       "b": "Resistance Decreases",
       "c": "Resistance does not change"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 50,
@@ -552,7 +552,7 @@
       "b": "On the AFT ELECTRONIC PANEL",
       "c": "On the FWD PANEL between the two CDUs"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 56,
@@ -562,7 +562,7 @@
       "b": "On the MASTER CAUTION PANEL in front of the Captain",
       "c": "On the Cargo FIRE PANEL on the AFT ELECTRONIC PANEL"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 57,
@@ -572,7 +572,7 @@
       "b": "The wheel well has a fire detection system only",
       "c": "The wheel well has a fire detection and protection system with one fire bottle"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 58,
@@ -601,7 +601,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 61,
@@ -610,7 +610,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 62,
@@ -620,7 +620,7 @@
       "b": "The flaps extend before the slats",
       "c": "The flaps and slats extend at the same time"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 63,
@@ -641,7 +641,7 @@
       "c": "25000 feet",
       "d": "20000 feet"
     },
-    "correctAnswer": null
+    "correctAnswer": "d"
   },
   {
     "questionId": 65,
@@ -650,7 +650,7 @@
       "a": "The stabiliser is not trimmed properly by the electric trim",
       "b": "The Autopilot is engaged and not trimming the stabiliser properly"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 66,
@@ -659,7 +659,7 @@
       "a": "Agree",
       "b": "Disagree"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 67,
@@ -669,7 +669,7 @@
       "b": "AC electric power",
       "c": "DC electric power"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 68,
@@ -679,7 +679,7 @@
       "b": "Electronic Flight Instrument system",
       "c": "Electronic Flight Indication System"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 69,
@@ -689,7 +689,7 @@
       "b": "Engine Indication and Crew Alerting System",
       "c": "Electric Information and Crew Alerting System"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 70,
@@ -700,7 +700,7 @@
       "c": "From the EFIS Control Panel",
       "d": "Automatically"
     },
-    "correctAnswer": null
+    "correctAnswer": "c"
   },
   {
     "questionId": 71,
@@ -709,7 +709,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 72,
@@ -719,7 +719,7 @@
       "b": "At the top of the Navigation Display (ND)",
       "c": "At the top of the Primary Flight Display (PFD)"
     },
-    "correctAnswer": null
+    "correctAnswer": "c"
   },
   {
     "questionId": 73,
@@ -841,7 +841,7 @@
       "b": "The bottom right side of the Forward Overhead Panel",
       "c": "The top left side of the Forward overhead Panel."
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 85,
@@ -873,7 +873,7 @@
       "c": "1 Main system and 2 standby systems",
       "d": "2 main systems and a standby system"
     },
-    "correctAnswer": null
+    "correctAnswer": "d"
   },
   {
     "questionId": 88,
@@ -882,7 +882,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 89,
@@ -892,7 +892,7 @@
       "b": "System A, System B, ALTN System",
       "c": "System A, System B, ALTN System, STBY System"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 90,
@@ -902,7 +902,7 @@
       "b": "One engine driven pump and one electric driven pump",
       "c": "Two electric driven pumps"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 91,
@@ -911,9 +911,9 @@
       "a": "Thrust reversers and rudder",
       "b": "Leading Edge Flaps and Slats",
       "c": "Standby Yaw Damper",
-      "d": "All of the above Ice and Rain"
+      "d": "All of the above"
     },
-    "correctAnswer": null
+    "correctAnswer": "d"
   },
   {
     "questionId": 92,
@@ -923,7 +923,7 @@
       "b": "A de-icing system",
       "c": "Both A and B"
     },
-    "correctAnswer": null
+    "correctAnswer": "c"
   },
   {
     "questionId": 93,
@@ -933,7 +933,7 @@
       "b": "AC Electric power",
       "c": "DC electric power"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 94,
@@ -945,7 +945,7 @@
       "d": "Engine anti-ice",
       "e": "All of the above"
     },
-    "correctAnswer": null
+    "correctAnswer": "e"
   },
   {
     "questionId": 95,
@@ -954,7 +954,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "true"
   },
   {
     "questionId": 96,
@@ -965,7 +965,7 @@
       "c": "0\u00b0C",
       "d": "-10\u00b0C"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 97,
@@ -974,7 +974,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 98,
@@ -994,16 +994,16 @@
       "b": "Anti- ice system",
       "c": "Both A and B"
     },
-    "correctAnswer": null
+    "correctAnswer": "c"
   },
   {
     "questionId": 100,
     "question": "Ice build-up on the front screens and around the window wipers is used by the pilot as an indication of when to switch on wing anti-ice.",
     "answers": {
       "a": "True",
-      "b": "False Landing Gear"
+      "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 101,
@@ -1012,7 +1012,7 @@
       "a": "Agree",
       "b": "Disagree"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 102,
@@ -1022,7 +1022,7 @@
       "b": "3 Positions Up, Down and Off",
       "c": "4 Positions, Up, Down, Off, Centre"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 103,
@@ -1031,7 +1031,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 104,
@@ -1042,7 +1042,7 @@
       "c": "Down-locks",
       "d": "All of the above"
     },
-    "correctAnswer": null
+    "correctAnswer": "d"
   },
   {
     "questionId": 105,
@@ -1053,7 +1053,7 @@
       "c": "250 Kts/0.78",
       "d": "220 Kts/0.75"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 106,
@@ -1064,7 +1064,7 @@
       "c": "240 Kts",
       "d": "250 Kts"
     },
-    "correctAnswer": "d"
+    "correctAnswer": "b"
   },
   {
     "questionId": 107,
@@ -1075,7 +1075,7 @@
       "c": "350 Kts/0.82",
       "d": "280 Kts/0.76"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 108,
@@ -1086,7 +1086,7 @@
       "c": "The Auto Brake system",
       "d": "All of the above"
     },
-    "correctAnswer": null
+    "correctAnswer": "d"
   },
   {
     "questionId": 109,
@@ -1106,7 +1106,7 @@
       "b": "Hot",
       "c": "Brakes are not affected by temperature"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 111,
@@ -1115,7 +1115,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 112,
@@ -1124,7 +1124,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 113,
@@ -1135,7 +1135,7 @@
       "c": "Automatically following detection of a significant malfunction",
       "d": "Manually by the Captain Navigation System"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 114,
@@ -1145,7 +1145,7 @@
       "b": "GPS 1 & 2, IRS 1 & 2, FMC",
       "c": "GPS 1 & 2, IRS 1 & 2, FMC 1 & 2"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 115,
@@ -1168,7 +1168,7 @@
       "d": "FMC",
       "e": "All of the above"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "e"
   },
   {
     "questionId": 117,
@@ -1177,7 +1177,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 118,
@@ -1189,7 +1189,7 @@
       "d": "Present Position",
       "e": "All of the above"
     },
-    "correctAnswer": null
+    "correctAnswer": "e"
   },
   {
     "questionId": 119,
@@ -1199,7 +1199,7 @@
       "b": "Lasers",
       "c": "Microchips Powerplant Controls"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 120,
@@ -1209,7 +1209,7 @@
       "b": "Select the Start Switch to GRD",
       "c": "Select the ENG Start Lever to Idle"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 121,
@@ -1218,7 +1218,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 122,
@@ -1227,7 +1227,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 123,
@@ -1238,7 +1238,7 @@
       "c": "OFF",
       "d": "STANDBY"
     },
-    "correctAnswer": null
+    "correctAnswer": "c"
   },
   {
     "questionId": 124,
@@ -1249,7 +1249,7 @@
       "c": "OFF",
       "d": "STANDBY"
     },
-    "correctAnswer": "d"
+    "correctAnswer": "b"
   },
   {
     "questionId": 125,
@@ -1259,7 +1259,7 @@
       "b": "The Shorter the Spool up time",
       "c": "Spool up time is the same regardless of fan diameter"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 126,
@@ -1269,7 +1269,7 @@
       "b": "Air pressure and EGT values",
       "c": "Altitude, temperature and N2 values"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 127,
@@ -1278,7 +1278,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 128,
@@ -1287,7 +1287,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 129,
@@ -1296,7 +1296,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 130,
@@ -1307,7 +1307,7 @@
       "c": "15000 feet",
       "d": "20000 feet"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 131,
@@ -1316,7 +1316,7 @@
       "a": "One display on the lower centre panel between the CDUs",
       "b": "Two displays on the Glare Shield either side of the MCP"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 132,
@@ -1344,7 +1344,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 135,
@@ -1353,7 +1353,7 @@
       "a": "Aural instructions to avoid a collision",
       "b": "Aural and visual instructions to avoid a collision"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 136,
@@ -1364,7 +1364,7 @@
       "c": "Glide Slope",
       "d": "All of the above"
     },
-    "correctAnswer": null
+    "correctAnswer": "d"
   },
   {
     "questionId": 137,
@@ -1373,7 +1373,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 138,
@@ -1383,7 +1383,7 @@
       "b": "Predictive windshear",
       "c": "Both a and b are correct"
     },
-    "correctAnswer": null
+    "correctAnswer": "c"
   },
   {
     "questionId": 139,
@@ -1394,7 +1394,7 @@
       "c": "\u201cDON\u2019T SINK\u201d, \u201cDON\u2019T SINK\u201d",
       "d": "\u201cSINK RATE\u201d, \u201cSINK RATE\u201d"
     },
-    "correctAnswer": null
+    "correctAnswer": "c"
   },
   {
     "questionId": 140,
@@ -1404,7 +1404,7 @@
       "b": "Terrain look-ahead alerting and Windshear",
       "c": "Terrain look-ahead alerting and Predictive Winds"
     },
-    "correctAnswer": null
+    "correctAnswer": "c"
   },
   {
     "questionId": 141,
@@ -1415,7 +1415,7 @@
       "c": "1,500ft",
       "d": "1000ft"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 142,
@@ -1424,7 +1424,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 143,
@@ -1435,7 +1435,7 @@
       "c": "Very Heavy Rainfall",
       "d": "Icing"
     },
-    "correctAnswer": null
+    "correctAnswer": "c"
   },
   {
     "questionId": 144,
@@ -1446,7 +1446,7 @@
       "c": "Turbulence",
       "d": "Very Heavy Rainfall"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 145,
@@ -1457,7 +1457,7 @@
       "c": "Light turbulence",
       "d": "Icing"
     },
-    "correctAnswer": null
+    "correctAnswer": "b"
   },
   {
     "questionId": 146,
@@ -1468,7 +1468,7 @@
       "c": "Light Rainfall",
       "d": "Light icing"
     },
-    "correctAnswer": null
+    "correctAnswer": "c"
   },
   {
     "questionId": 147,
@@ -1477,7 +1477,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 148,
@@ -1487,7 +1487,7 @@
       "b": "Tilt",
       "c": "Gain"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "b"
   },
   {
     "questionId": 149,
@@ -1496,7 +1496,7 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   },
   {
     "questionId": 150,
@@ -1505,6 +1505,6 @@
       "a": "True",
       "b": "False"
     },
-    "correctAnswer": null
+    "correctAnswer": "a"
   }
 ]
