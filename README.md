@@ -1,6 +1,6 @@
-# ATPL Question Bank App
+# MCC Question Bank App
 
-A modern, mobile-friendly question bank application for ATPL (Airline Transport Pilot License) exam preparation.
+A modern, mobile-friendly question bank application for MCC (Multi-Crew Coordination) exam preparation. Now available as a Progressive Web App (PWA) that can be installed on Android and iOS devices!
 
 ## Features
 
@@ -11,16 +11,38 @@ A modern, mobile-friendly question bank application for ATPL (Airline Transport 
 - ⏱️ Timer for each test
 - 📱 Fully responsive and mobile-friendly design
 - 🎨 Modern, sleek UI with smooth animations
+- 📲 **PWA Support** - Install on Android and iOS devices
+- 🔄 **Offline Support** - Works without internet connection
 
 ## Setup
 
-1. Simply open `index.html` in a web browser, or
-2. Deploy to GitHub Pages:
+### For Local Development
+
+1. Serve the app over HTTPS (required for PWA):
+   - Use a local server like `python -m http.server` or `npx serve`
+   - Or use a tool like `npx http-server` with SSL
+
+### For Production Deployment
+
+1. Deploy to GitHub Pages or any HTTPS hosting:
    - Create a new repository
-   - Upload all files (index.html, styles.css, app.js, questions.json)
+   - Upload all files (index.html, styles.css, app.js, questions.json, manifest.json, sw.js, icons/)
    - Go to Settings > Pages
    - Select the main branch as source
    - Your app will be live at `https://yourusername.github.io/repository-name/`
+
+### Installing as PWA
+
+**On Android (Chrome/Edge):**
+1. Open the app in Chrome or Edge browser
+2. Tap the menu (three dots) → "Add to Home screen" or "Install app"
+3. The app will be installed and appear on your home screen
+
+**On iOS (Safari):**
+1. Open the app in Safari browser
+2. Tap the Share button (square with arrow)
+3. Select "Add to Home Screen"
+4. The app will be installed and appear on your home screen
 
 ## Usage
 
@@ -38,6 +60,9 @@ A modern, mobile-friendly question bank application for ATPL (Airline Transport 
 - `styles.css` - All styling and responsive design
 - `app.js` - Application logic and functionality
 - `questions.json` - Question bank data
+- `manifest.json` - PWA manifest file
+- `sw.js` - Service worker for offline functionality
+- `icons/` - PWA icons directory
 
 ## Adding Questions
 
